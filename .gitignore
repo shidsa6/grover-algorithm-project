@@ -34,3 +34,6 @@ qiskit_env/
 # Project specific
 examples/*.png
 .DS_Store
+
+# Keep documentation images
+!docs/images/*.png

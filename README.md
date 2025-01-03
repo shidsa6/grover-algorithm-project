@@ -3,12 +3,31 @@
 ## Overview
 This project implements Grover's Algorithm using Qiskit, demonstrating quantum search capabilities through various test cases.
 
+![Generic Grover Circuit](docs/images/generic_grover_circuit.png)
+
 ## Features
 - Implementation of Grover's Algorithm with configurable parameters
 - Multiple test cases demonstrating different search scenarios
 - Visualization of quantum circuits and measurement results
 - Comprehensive test suite
 - Detailed documentation and discussion of results
+
+## Implementation Examples
+
+### Case 1: Single Solution Search
+![Case 1 Circuit](docs/images/case1_circuit.png)
+- Searching for state |100100⟩ in 6-qubit space
+- Demonstrates precise targeting of single solution
+
+### Case 2: Multiple Solutions
+![Case 2 Histogram](docs/images/case2_histogram.png)
+- Successfully identifies three marked states
+- Shows balanced probability distribution among solutions
+
+### Case 3: Large Solution Set
+![Case 3 Results](docs/images/case3_circuit.png)
+- Efficiently handles seven solutions
+- Demonstrates algorithm's scalability
 
 ## Installation
 
@@ -49,6 +68,8 @@ grover_algorithm/
 ├── LICENSE
 ├── grover_algorithm.py
 ├── discussion.md
+├── docs/
+│   └── images/
 ├── examples/
 └── tests/
     └── test_grover_algorithm.py
