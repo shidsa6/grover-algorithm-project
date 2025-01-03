@@ -4,6 +4,7 @@
 This project implements Grover's Algorithm using Qiskit, demonstrating quantum search capabilities through various test cases.
 
 ![Generic Grover Circuit](examples/generic_grover_circuit.png)
+*Generic Grover's Algorithm Circuit Structure*
 
 ## Features
 - Implementation of Grover's Algorithm with configurable parameters
@@ -16,18 +17,24 @@ This project implements Grover's Algorithm using Qiskit, demonstrating quantum s
 
 ### Case 1: Single Solution Search
 ![Case 1 Circuit](examples/Case_1_circuit.png)
-- Searching for state |100100⟩ in 6-qubit space
-- Demonstrates precise targeting of single solution
+*Circuit for single solution search (state |100100⟩)*
+
+![Case 1 Histogram](examples/Case_1_histogram.png)
+*Measurement results showing high probability for target state*
 
 ### Case 2: Multiple Solutions
+![Case 2 Circuit](examples/Case_2_circuit.png)
+*Circuit for three-solution search (states |001110⟩, |010111⟩, |111010⟩)*
+
 ![Case 2 Histogram](examples/Case_2_histogram.png)
-- Successfully identifies three marked states
-- Shows balanced probability distribution among solutions
+*Measurement results showing balanced distribution among three solutions*
 
 ### Case 3: Large Solution Set
-![Case 3 Results](examples/Case_3_circuit.png)
-- Efficiently handles seven solutions
-- Demonstrates algorithm's scalability
+![Case 3 Circuit](examples/Case_3_circuit.png)
+*Circuit optimized for seven solutions*
+
+![Case 3 Histogram](examples/Case_3_histogram.png)
+*Measurement results demonstrating successful amplification of all seven states*
 
 ## Installation
 
