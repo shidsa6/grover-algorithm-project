@@ -14,8 +14,8 @@ This project implements Grover's Algorithm using Qiskit, demonstrating quantum s
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/grover_algorithm.git
-cd grover_algorithm
+git clone https://github.com/shidsa6/grover-algorithm-project.git
+cd grover-algorithm-project
 ```
 
 2. Create and activate a virtual environment:
